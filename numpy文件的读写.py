@@ -1,0 +1,10 @@
+import numpy as np
+a=np.eye(3)
+print(a)
+np.savetxt("eye.txt",a)
+#f.open("eye.txt","w")
+#f.write("2019.12.13")
+#f.close()
+#f.open("eye.txt","r")
+#s=f.read()
+#print(s)
